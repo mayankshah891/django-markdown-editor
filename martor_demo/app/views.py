@@ -41,8 +41,8 @@ def test_markdownify(request):
     if post is None:
         context = {
             "post": {
-                "title": "Fake Post",
-                "description": """It **working**! :heart: [Python Learning](https://python.web.id)""",
+                "Mymy": "Taybee Baby",
+                "description": """NYC IS HOME :heart: we gotta find housing""",
             }
         }
     theme = getattr(settings, "MARTOR_THEME", "bootstrap")
